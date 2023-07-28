@@ -62,37 +62,39 @@ The Todo App is open-source software licensed under the MIT License.
 
 If you have any questions or suggestions regarding Todo App, please feel free to reach out to me at your-benasabu74@example.com.
 
-# Todo App Screenshot
-
-## Screenshots
-
+## Todo App Screenshot
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/b98cd4f2-6598-48a7-aa57-82e34b10240f" alt="Screenshot 1" width="200"/>
+      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/49407698-b772-469b-8496-49dbab25d149" alt="Screenshot 1" width="200"/>
     </td>
     <td>
-      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/9de9d80e-1483-443e-a990-d49c85071f1b" alt="Screenshot 2" width="200"/>
+      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/3f7a978a-e564-4c44-89cf-33c47984c113" alt="Screenshot 2" width="200"/>
     </td>
     <td>
-      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/80094cfd-6cd2-44f7-b51d-1ba8472c9165" alt="Screenshot 3" width="200"/>
+      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/f6c33f28-0279-4dee-b8ca-28786052d92e" alt="Screenshot 3" width="200"/>
     </td>
     <td>
-      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/57a596b6-cea6-4d78-b72d-1139486bf2f3" alt="Screenshot 4" width="200"/>
+      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/a0543733-3048-4b08-84f4-f691b91794cc" alt="Screenshot 4" width="200"/>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/bfc1716f-7d7c-4f35-b924-53a922296189" alt="Screenshot 5" width="200"/>
+      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/f39935f7-db43-49d0-946d-08cdb8f5a286" alt="Screenshot 5" width="200"/>
     </td>
     <td>
-      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/48b939e3-64ca-4707-b9ee-46967f4c2448" alt="Screenshot 6" width="200"/>
+      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/61118098-2492-4b35-a8f2-fa6be7a3d4b3" alt="Screenshot 6" width="200"/>
     </td>
     <td>
-      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/c5e4de19-2bb8-4452-9746-3a9a5251e22e" alt="Screenshot 7" width="200"/>
+      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/ccefe6f1-6bde-418e-87fc-7429b37b6c88" alt="Screenshot 7" width="200"/>
     </td>
     <td>
-      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/dec5b9a5-3cd7-4b39-bb58-1a976cccec2e" alt="Screenshot 8" width="200"/>
+      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/f381cdde-7d64-4cc0-b63b-47be0c57cf91" alt="Screenshot 8" width="200"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <img src="https://github.com/Ben-A-Sabu/todo-app/assets/88230486/71e00f44-67da-40db-ba8f-974987f9ae3f" alt="Screenshot 9" width="800"/>
     </td>
   </tr>
 </table>
