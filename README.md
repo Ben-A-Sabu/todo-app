@@ -13,9 +13,7 @@ Welcome to Todo App! This intuitive task management application helps you stay o
 - User Profile: Personalize your experience by adding your name, photo, and other relevant details.
 - Task Count: The app provides a count of tasks for each filter category, giving you an overview of your task distribution.
 
-# Demo
 
-Check out the live demo of Todo App at https://ben-a-sabu.github.io/todo-app/.
 
 # Getting Started
 
