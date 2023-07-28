@@ -1,38 +1,282 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.headersection {
+  height: 13vh;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   text-align: center;
+  padding: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todolist {
+  height: 80vh;
+  background-color: #cbc3c3;
+  border-radius: 10px;
+  color: rgb(15, 14, 14);
+  margin: clamp(10px, 5px, 15px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.List {
+  height: 75vh;
+  min-width: 250px;
+  overflow-y: scroll;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: clamp(50px, 10vw, 65px);
+  max-height: 84px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.515);
+  z-index: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.reminderform {
+  width: clamp(300px, 40%, 700px);
+  max-height: 60vh;
+  position: absolute;
+  top: 20%;
+  border-radius: 10px;
+  padding: 20px;
+  opacity: 1;
+  z-index: 2;
+  overflow: auto;
+  font-size: clamp(15px, 2vw, 20px);
+  background-color: #8de4a1;
+  box-shadow: 10px 10px 15px #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#NumberofTasks {
+  background-color: #11b52a;
+  border-radius: 5px;
+  padding: 20px;
+  height: clamp(20px, 10vw, 30px);
+  color: #f5f5f5;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  width: clamp(200px, 20vw, 300px);
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.TaskMenubar {
+  justify-content: space-between;
+}
+
+.menubtn {
+  padding: 5px;
+  background-color: #a4eaa75e;
+  width: clamp(20px, 10px, 15px);
+}
+
+.menulist {
+  height: clamp(50px, 20vw, 40px);
+  width: clamp(250px, 20vw, 200px);
+  background-color: #a4eaa8;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  transition: ease-in-out 1s;
+}
+
+.menulist img {
+  width: clamp(20px, 30px, 25px);
+  align-items: center;
+  border-radius: 0px;
+}
+
+.menulist img:hover {
+  background-color: #56845d;
+  border-radius: 10px;
+}
+
+.taskbtn {
+  height: 50px;
+  background-color: #a4eaa75e;
+}
+
+.taskbtn img {
+  background-color: #11b52a;
+  width: clamp(20px, 30px, 25px);
+}
+
+.headings {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.closebtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #11b52a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.generalbtn {
+  width: clamp(7rem, 10vw, 15rem);
+  height: clamp(3rem, 5vh, 3rem);
+  background-color: #11b58c;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+
+.removebtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #11b52a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fpbtn {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #11b52a;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Specific button css */
+#previous {
+  rotate: -180deg;
+  bottom: 40%;
+}
+
+#forward {
+  bottom: 40%;
+  right: 1px;
+}
+
+#Addbtn {
+  bottom: 15px;
+  right: 15px;
+}
+
+#photo{
+  width:100%;
+  height:60px;
+}
+
+#name{
+  width: 100%;
+  height: 50px;
+}
+
+.notification-container {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.notification-count {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  left: clamp(30px, 10vw, 65px);
+  background-color: #11b52a;
+  border-radius: 50px;
+  padding: 5px;
+  height: clamp(20px, 10vw, 30px);
+  width: clamp(20px, 10vw, 30px);
+  color: #f5f5f5;
+  font-size: 20px;
+}
+
+.Notificationbanner{
+  width: 100%;
+  height: 100%;
+}
+
+h3{
+  cursor: pointer;
 }
